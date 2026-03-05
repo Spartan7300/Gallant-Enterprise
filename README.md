@@ -1,2 +1,2 @@
-Gallant-Enterprise Website
+Gallant Enterprise Website
 
