@@ -1,10 +1,6 @@
-html {
-  height: 100%;
-}
-
-.main-title {
+ .main-title {
   width: 100%;
-  position: center;
+  position: fixed, center;
   top: 0;
   color: white;
   background: rgba(0, 0, 0, 0.9);
@@ -17,14 +13,15 @@ html {
  }
  
  body {
-  background-image: url("Design/index.webp");
-  background-size: cover;       
+  width: 100%;
+  background-image: url("Design/contact_us.webp");
+  background-size: cover;      
   background-position: center;  
   background-repeat: no-repeat; 
   background-attachment: fixed;
 
   min-height: 100vh;
-  margin: 0px auto;
+  margin: 0px;
   display: flex;
   flex-direction: column;
  }
@@ -42,7 +39,7 @@ html {
   color: white;
   border: none;
   cursor: pointer;
-  font-size: 130%;
+  font-size: 120%;
  }
 
  nav button:hover {
@@ -50,33 +47,16 @@ html {
   text-shadow: 1px 1px 3px rgba(0,0,0,1);
  }
 
- .disclaimer {
-  width: 30%;
-  min-width: 300px;
-  background: rgba(0, 0, 0, 0.65);
-  color: white;
-  padding: 15px;
-  padding-top: 0px;
-  margin: 50px auto; 
-  margin-top: 130px;
-  margin-bottom: 0px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
-  text-align: center;
-  font-size: 110%;
- }
-
  .main-text {
-  width: 30%;
+  width: 35%;
   min-width: 300px;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
   padding-top: 0px;
   margin: 50px auto; 
-  margin-top: 130px;
-  margin-bottom: 130px;
+  margin-top: 150px;
+  margin-bottom: 150px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   max-width: 600px;
@@ -85,23 +65,19 @@ html {
  }
 
  .main-text button {
-  background-color: rgba(0,0,0,0.5);
+  background-color: #000000;
   color: #ffffff;
   border: none;
   border-radius: 999px; 
-  padding: 1px 10px;
+  padding: 1px 15px;
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
   margin-top: 10px
  }
 
- .location {
-  color: rgba(128, 0, 128, 1);
- }
-
  .main-text button:hover {
-  background: rgba(0,0,0,0.15);
+  background-color: #3a3a3c;
  }
 
  footer {
