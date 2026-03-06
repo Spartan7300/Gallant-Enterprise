@@ -1,4 +1,8 @@
- .main-title {
+html {
+  height: 100%;
+}
+
+.main-title {
   width: 100%;
   position: center;
   top: 0;
@@ -84,10 +88,10 @@
  }
 
  footer {
+  margin-top: auto;
   color: white;
   background: rgba(0, 0, 0, 0.8);
   padding: 15px;
-  margin: 0px;
   border-radius: 0px;
   text-align: center;
 }
