@@ -44,7 +44,7 @@ html {
   border: none;
   cursor: pointer;
   font-size: 130%;
-  min-width: 85px;
+  min-width: 160px;
  }
 
  nav button:hover {
