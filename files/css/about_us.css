@@ -14,6 +14,7 @@
  
  body {
   background-image: url("Design/about_us.webp");
+  background-color: #000000;
   background-size: cover;       
   background-position: center;   
   background-repeat: no-repeat;
