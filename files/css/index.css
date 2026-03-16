@@ -18,6 +18,7 @@ html {
  
  body {
   background-image: url("Design/index.webp");
+  background-color: #000000;
   background-size: cover;       
   background-position: center;  
   background-repeat: no-repeat; 
@@ -32,17 +33,19 @@ html {
  nav {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
  }
 
  nav button {
-  flex: 1;                 
-  padding: 10px 0;       
+  flex: 1 1 160px;                
+  padding: 10px 16px;       
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   cursor: pointer;
   font-size: 130%;
+  min-width: 160px;
  }
 
  nav button:hover {
