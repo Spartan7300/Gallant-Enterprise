@@ -80,6 +80,24 @@
   background-color: #3a3a3c;
  }
 
+.Google-Maps-Embed {
+  width: 30%;
+  min-width: 300px;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 15px;
+  padding-top: 0px;
+  margin: 50px auto; 
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+  font-size: 110%;
+ }
+
+
  footer {
   margin-top: auto;
   color: white;
