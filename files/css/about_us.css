@@ -56,7 +56,6 @@
   padding-top: 0px;
   margin: 50px auto; 
   margin-top: 150px;
-  margin-bottom: 150px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   max-width: 600px;
@@ -79,6 +78,29 @@
  .main-text button:hover {
   background-color: #3a3a3c;
  }
+
+.Google-Maps-Embed {
+  min-width: 300px;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 15px;
+  margin: 50px auto; 
+  margin-top: 50px;
+  margin-bottom: 150px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+  font-size: 110%;
+ }
+
+.Google-Maps-Embed iframe {
+  width: 100%;
+  height: 400px;
+  border: 0;
+}
+
 
  footer {
   margin-top: auto;
