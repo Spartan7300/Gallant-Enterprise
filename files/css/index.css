@@ -69,6 +69,40 @@ html {
   font-size: 110%;
  }
 
+ .service-advert {
+  width: 30%;
+  min-width: 300px;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 15px;
+  padding-top: 0px;
+  margin: 50px auto; 
+  margin-top: 130px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+  font-size: 110%;
+}
+
+ .service-advert button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 0px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+ .service-advert button:hover {
+  color: blue;
+}
+
+ .service-advert ul {
+  text-align: left;
+}
+
  .main-text {
   width: 30%;
   min-width: 300px;
@@ -98,8 +132,9 @@ html {
   margin-top: 10px
  }
 
+ 
  .location {
-  color: rgba(128, 0, 128, 1);
+  color: rgba(47, 208, 63, 1);
  }
 
  .main-text button:hover {
