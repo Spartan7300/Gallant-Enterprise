@@ -50,7 +50,25 @@
 
  .main-text {
   width: 35%;
-  min-width: 300px;
+  min-width: 50px;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 15px;
+  padding-top: 0px;
+  margin: 50px auto; 
+  margin-top: 150px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  text-align: center;
+  font-size: 110%;
+ }
+
+
+ .tires-advert {
+  width: 50%;
+  min-width: 50px;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
@@ -60,10 +78,14 @@
   margin-bottom: 150px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
+  max-width: 800px;
   text-align: center;
   font-size: 110%;
  }
+
+ .tires-advert img {
+  width: 100%;
+}
 
  .main-text button {
   background-color: #000000;
