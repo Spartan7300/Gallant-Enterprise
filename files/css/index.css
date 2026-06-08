@@ -27,6 +27,7 @@ html {
   margin: 0px auto;
   display: flex;
   flex-direction: column;
+  overscroll-behavior: none;
  }
 
  nav {
