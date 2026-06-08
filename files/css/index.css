@@ -54,8 +54,8 @@ html {
  }
 
  .disclaimer {
-  width: 30%;
-  min-width: 300px;
+  width: 100%;
+  max-width: 35%;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
@@ -65,14 +65,13 @@ html {
   margin-bottom: 0px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
   text-align: center;
   font-size: 110%;
  }
 
  .service-advert {
-  width: 30%;
-  min-width: 300px;
+  width: 100%;
+  max-width: 35%;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
@@ -82,7 +81,6 @@ html {
   margin-bottom: 0px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
   text-align: center;
   font-size: 110%;
 }
@@ -100,13 +98,19 @@ html {
   color: blue;
 }
 
+ .service-advert img {
+  width: 100%;
+  max-width: 55%;
+  margin: 10px;
+}
+
  .service-advert ul {
   text-align: left;
 }
 
  .main-text {
-  width: 30%;
-  min-width: 300px;
+  width: 100%;
+  max-width: 35%;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
@@ -116,7 +120,6 @@ html {
   margin-bottom: 130px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
   text-align: center;
   font-size: 110%;
  }

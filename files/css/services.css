@@ -95,7 +95,7 @@ html {
   padding-top: 0px;
   margin: 50px auto; 
   margin-top: 130px;
-  margin-bottom: 0px;
+  margin-bottom: 130px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -112,16 +112,44 @@ html {
   margin: 10px;
 }
 
-.programming-info {
-  width: 30%;
+.sgi-info {
+  width: 100%;
+  max-width: 45%;
   min-width: 300px;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
   padding-top: 0px;
   margin: 50px auto; 
-  margin-top: 55px;
-  margin-bottom: 130px;
+  margin-top: 130px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 110%;
+ }
+
+ .sgi-info ul {
+  text-align: left;
+}
+
+ .sgi-info img {
+  width: 100%;
+  max-width: 30%;
+  margin: 10px;
+}
+
+
+.programming-info {
+  width: 100%;
+  min-width: 45%x;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 15px;
+  padding-top: 0px;
+  margin: 50px auto; 
+  margin-top: 130px;
+  margin-bottom: 0px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   max-width: 600px;
