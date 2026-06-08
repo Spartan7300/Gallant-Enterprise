@@ -1,4 +1,8 @@
- .main-title {
+html {
+  min-height: 100%;
+} 
+
+.main-title {
   width: 100%;
   position: fixed, center;
   top: 0;
@@ -21,7 +25,7 @@
   background-repeat: no-repeat; 
   background-attachment: fixed;
 
-  min-height: 100vh;
+  min-height: 100dvh;
   margin: 0px;
   display: flex;
   flex-direction: column;
@@ -49,21 +53,27 @@
  }
 
  .main-text {
-  width: 35%;
+  width: 55%;
   min-width: 50px;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
   padding-top: 0px;
   margin: 50px auto; 
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 0px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  max-width: 800px;
+  max-width: 90%;
   text-align: center;
   font-size: 110%;
  }
+
+ .main-text img {
+  margin-top: 15px;
+  max-width: 40%;
+
+}
 
 
  .tires-advert {
@@ -74,7 +84,7 @@
   padding: 15px;
   padding-top: 0px;
   margin: 50px auto; 
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 150px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -87,21 +97,6 @@
   width: 100%;
 }
 
- .main-text button {
-  background-color: #000000;
-  color: #ffffff;
-  border: none;
-  border-radius: 999px; 
-  padding: 1px 15px;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  margin-top: 10px
- }
-
- .main-text button:hover {
-  background-color: #3a3a3c;
- }
 
  footer {
   margin-top: auto;
