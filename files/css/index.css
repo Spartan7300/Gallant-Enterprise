@@ -4,6 +4,7 @@ html {
 
 .main-title {
   width: 100%;
+  min-width: 295px;
   top: 0;
   color: white;
   background: rgba(0, 0, 0, 0.9);
@@ -33,6 +34,7 @@ html {
  nav {
   display: flex;
   width: 100%;
+  min-width: 295px;
   flex-wrap: wrap;
  }
 
@@ -54,8 +56,7 @@ html {
  }
 
  .disclaimer {
-  width: 100%;
-  max-width: 35%;
+  width: 35%;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
@@ -69,9 +70,15 @@ html {
   font-size: 110%;
  }
 
+@media (max-width: 719px) {
+  .disclaimer {
+    width: 90%;
+    min-width: 265px;
+  }
+}
+
  .service-advert {
-  width: 100%;
-  max-width: 35%;
+  width: 35%;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
@@ -83,6 +90,13 @@ html {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
   font-size: 110%;
+}
+
+@media (max-width: 719px) {
+  .service-advert {
+    width: 90%;
+    min-width: 265px;
+  }
 }
 
  .service-advert button {
@@ -109,8 +123,7 @@ html {
 }
 
  .main-text {
-  width: 100%;
-  max-width: 35%;
+  width: 35%;
   background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 15px;
@@ -123,6 +136,14 @@ html {
   text-align: center;
   font-size: 110%;
  }
+
+@media (max-width: 719px) {
+  .main-text {
+    width: 90%;
+    min-width: 265px;
+
+  }
+}
 
  .main-text button {
   background-color: rgba(0,0,0,0.5);
