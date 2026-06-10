@@ -69,6 +69,14 @@ html {
   font-size: 110%;
  }
 
+@media (max-width: 719px) {
+  .main-text {
+    width: 90%;
+    min-width: 265px;
+
+  }
+}
+
  .main-text img {
   margin-top: 15px;
   max-width: 40%;
@@ -92,6 +100,14 @@ html {
   text-align: center;
   font-size: 110%;
  }
+
+@media (max-width: 719px) {
+  .tires-advert {
+    width: 90%;
+    min-width: 265px;
+
+  }
+}
 
  .tires-advert img {
   width: 100%;
