@@ -18,7 +18,7 @@ html {
 
 body {
   position: relative;
-  min-height: 100dvh;
+  min-height: 100svh;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -42,9 +42,6 @@ body::before {
 @media (max-width: 719px) {
   body::before {
     background-position: center top;
-
-    transform: scale(1.05);
-    transform-origin: center top;
   }
 }
 
