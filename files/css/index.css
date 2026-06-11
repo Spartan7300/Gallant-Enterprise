@@ -24,7 +24,7 @@ html {
   background-repeat: no-repeat; 
   background-attachment: fixed;
 
-  min-height: 100vh;
+  min-height: 100dvh;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
