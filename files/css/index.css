@@ -31,6 +31,14 @@ html {
   overscroll-behavior: none;
  }
 
+@media (max-width: 719px) {
+  body {
+    background-size: cover 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
  nav {
   display: flex;
   width: 100%;
