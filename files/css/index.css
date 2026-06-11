@@ -33,7 +33,7 @@ html {
 
 @media (max-width: 719px) {
   body {
-    background-size: cover 120%;
+    background-size: 100% 120%;
     background-position: center;
     background-repeat: no-repeat;
   }
