@@ -34,13 +34,10 @@ body::before {
   height: 100svh;
   z-index: -999; 
   
-  /* Your clean, mobile-optimized background settings */
   background-image: url("design/services.webp");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  
-  /* Optional: Hardware acceleration hint for smoother scrolling */
+  background-repeat: no-repeat;  
   will-change: transform; 
 }
 
