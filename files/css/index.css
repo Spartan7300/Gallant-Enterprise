@@ -16,27 +16,39 @@ html {
   font-size: 120%;
  }
 
- body {
-  background-image: url("design/index.webp");
-  background-color: #000000;
-  background-size: cover;       
-  background-position: center center;  
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
-
+body {
+  position: relative;
   min-height: 100dvh;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
   overscroll-behavior: none;
- }
+  overflow: hidden;
+  background-color: #000000;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("design/index.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+  transform: translateZ(0);
+}
 
 @media (max-width: 719px) {
-  body {
-    background-size: auto 120%;
+  body::before {
     background-position: center top;
+
+    transform: scale(1.05);
+    transform-origin: center top;
   }
 }
+
 
  nav {
   display: flex;
