@@ -33,14 +33,11 @@ body::before {
   width: 100%;
   height: 100svh;
   z-index: -999; 
-  
-  /* Your clean, mobile-optimized background settings */
+
   background-image: url("design/about_us.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
-  /* Optional: Hardware acceleration hint for smoother scrolling */
   will-change: transform; 
 }
 
