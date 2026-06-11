@@ -34,8 +34,6 @@ html {
 @media (max-width: 719px) {
   body {
     background-size: 100% 120%;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
 
