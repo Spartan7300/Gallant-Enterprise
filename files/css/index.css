@@ -20,22 +20,16 @@ html {
   background-image: url("design/index.webp");
   background-color: #000000;
   background-size: cover;       
-  background-position: center;  
+  background-position: center center;  
   background-repeat: no-repeat; 
   background-attachment: fixed;
 
-  min-height: 100dvh;
+  min-height: 100vh;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
   overscroll-behavior: none;
  }
-
-@media (hover: none) and (pointer: coarse) {
-  body {
-    background-size: stretch;
-  }
-}
 
  nav {
   display: flex;
