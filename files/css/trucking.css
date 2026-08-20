@@ -80,6 +80,10 @@ body::before {
   font-size: 110%;
  }
 
+ .main-text ul {
+  text-align: left;
+ }
+
 @media (max-width: 719px) {
   .main-text {
     width: 90%;
