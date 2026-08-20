@@ -80,7 +80,11 @@ body::before {
   font-size: 110%;
  }
 
- .we-rent {
+ .main-text ul {
+  text-align: left;
+ }
+
+ .we-haul {
   width: 35%;
   min-width: 300px;
   background: rgba(0, 0, 0, 0.65);
@@ -88,7 +92,6 @@ body::before {
   padding: 15px;
   padding-top: 0px;
   margin: 50px auto; 
-  margin-top: 150px;
   margin-bottom: 150px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -97,7 +100,7 @@ body::before {
   font-size: 110%;
  }
 
- .we-rent ul {
+ .we-haul ul {
   text-align: left;
  }
 
@@ -117,7 +120,6 @@ body::before {
   padding: 15px;
   padding-top: 0px;
   margin: 50px auto; 
-  margin-top: 150px;
   margin-bottom: 150px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
